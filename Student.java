@@ -2,7 +2,7 @@ package User;
 
 public class Student extends User {
     String matric_no = "bhu/20/04/05/0130";
-    String admission_no = "302283749732";
+    String admission_no = "302283748632";
     String registerCourse() {
         if (matric_no.equals("") || admission_no.equals("")) {
             return "You cannot register at this moment";
